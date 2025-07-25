@@ -1,7 +1,8 @@
-// .vscode/settings.json
 {
-    // aponta o Pylance para buscar módulos dentro da pasta "eyeware-sdk" no seu workspace
-    "python.analysis.extraPaths": [
-        "${workspaceFolder}/eyeware-sdk"
-    ]
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/eyeware-sdk"
+  ],
+  "python.analysis.exclude": [
+    ".venv"
+  ]
 }
